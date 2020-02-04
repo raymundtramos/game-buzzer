@@ -1,0 +1,23 @@
+{
+    "name": "game-buzzer",
+    "version": "1.0.0",
+    "description": "Utilizes socket.io to allow smartphones to be used as game buzzers",
+    "author": "Raymund Theodore Ramos",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/raymundtramos/game-buzzer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/raymundtramos/game-buzzer/issues"
+    },
+    "homepage": "https://github.com/raymundtramos/game-buzzer#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0"
+    }
+}
