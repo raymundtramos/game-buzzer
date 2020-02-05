@@ -7,7 +7,14 @@
 
 <body>
     <div class="container">
-        <button id="buzz-button" onclick="buzz()" class="btn red">BUZZ</button>
+        <div id="id-container" class="id-container">
+            <p class="id-title">Enter your name below:</p>
+            </br>
+            <input id="id-text" class="id-text" type="text">
+            </br>
+            <button id="id-button" onclick="idSubmit()" class="btn green">Submit</button>
+        </div>
+        <button id="buzz-button" onclick="buzz()" hidden="true" class="round-btn red">BUZZ</button>
     </div>
     <script src="socket.io.js"></script>
     <script src="js/buzzer.js"></script>
