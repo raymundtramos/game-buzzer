@@ -2,10 +2,14 @@
 
 <head>
     <link rel="icon" href="data:,">
-    <!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 
 <body>
+    <div class="container">
+        <h1 id="player" class="player-text">Waiting on players...</h1>
+        <button id="unlock-button" onclick="unlock()" hidden="true" class="btn green">Unlock</button>
+    </div>
     <script src="socket.io.js"></script>
     <script src="js/main.js"></script>
 </body>

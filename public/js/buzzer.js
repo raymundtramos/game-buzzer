@@ -7,10 +7,10 @@ socket.on('lock', function() {
 });
 
 socket.on('unlock', function() {
-    buzzButton.setAttribute('disabled', 'false');
+    console.log('INSIDE UNLOCK');
+    buzzButton.removeAttribute('disabled');
 });
 
 function buzz() {
     socket.emit('buzz', { id: id });
-    console.log('I was clicked');
 }

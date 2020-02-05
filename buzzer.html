@@ -2,11 +2,13 @@
 
 <head>
     <link rel="icon" href="data:,">
-    <!-- <link rel="stylesheet" type="text/css" href="css/buzzer.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/buzzer.css">
 </head>
 
 <body>
-    <button id="buzz-button" onclick="buzz()" class="btn">Buzz</button>
+    <div class="container">
+        <button id="buzz-button" onclick="buzz()" class="btn red">BUZZ</button>
+    </div>
     <script src="socket.io.js"></script>
     <script src="js/buzzer.js"></script>
 </body>
